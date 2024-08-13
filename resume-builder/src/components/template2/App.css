@@ -1,0 +1,61 @@
+/* Resume.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px auto;
+    width: 700px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header, .summary, .experience, .education, .skills, .languages, .references {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #337ab7;
+  }
+  
+  .header p {
+    font-size: 24px;
+  }
+  
+  .summary h2, .experience h2, .education h2, .skills h2, .languages h2, .references h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .experience ul, .education ul, .skills ul, .languages ul, .references ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .experience li, .education li, .skills li, .languages li, .references li {
+    margin-bottom: 10px;
+  }
+  
+  .download-button {
+    background-color: #337ab7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .download-button:hover {
+    background-color: #285e8e;
+  }
+  
